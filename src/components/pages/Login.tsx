@@ -26,6 +26,15 @@ export default function Login() {
       onSubmit={handleSubmit}
       className="max-w-md mx-auto mt-20 p-8 bg-white rounded-lg shadow-lg flex flex-col gap-6"
     >
+      {/* Logo */}
+      <div className="flex justify-center">
+        <img
+          src="https://hacertareas.mx/wp-content/uploads/2023/11/Logo-instagram-facebook-transparency.png"
+          alt="Logo"
+          className="w-32 h-auto"
+        />
+      </div>
+
       <h2 className="text-2xl font-bold text-center text-gray-800">Iniciar sesión</h2>
 
       <input
