@@ -50,7 +50,7 @@ Aplicación web para gestión de tareas con autenticación de usuarios, CRUD de 
 ### 1. Clona el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/frontend-task-manager.git
+git clone https://github.com/Rodolfo-Chan/task_manager.git
 cd frontend-task-manager
 ```
 ### 2. Instala las dependencias
