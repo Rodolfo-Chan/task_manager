@@ -52,5 +52,37 @@ Aplicación web para gestión de tareas con autenticación de usuarios, CRUD de 
 ```bash
 git clone https://github.com/tu-usuario/frontend-task-manager.git
 cd frontend-task-manager
+```
+### 2. Instala las dependencias
+```bash
+npm install
+# o
+yarn install
+
+```
+### 3. Configuración del entorno
+```bash
+src/features/auth/authAPI.ts
+const BASE_URL = 'https://tu-backend-api.com'; // Reemplaza con tu URL
+```
+## 🚀 Uso
+🧪 Modo Desarrollo / http://localhost:5173/
+```bash
+npm run dev
+# o
+yarn dev
+
+```
+## ☁️ Despliegue (Netlify)
+Crea un archivo public/_redirects con el siguiente contenido:
+```bash
+/* /index.html 200
+
+```
+## 🔐 Variables de entorno
+Configura en Netlify:
+```bash
+VITE_API_URL=https://tu-backend-api.com
 
 
+```
