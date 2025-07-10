@@ -6,7 +6,7 @@
 ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white)
 
 Aplicación web para gestión de tareas con autenticación de usuarios, CRUD de tareas y filtros avanzados.
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/Rodolfo-Chan/task_manager/blob/main/Screenshot_front.png)
 
 ---
 
