@@ -116,8 +116,7 @@ export default function Home() {
                     required
                 >
                     <option value="pendiente">Pendiente</option>
-                    <option value="en_progreso">En Progreso</option>
-                    <option value="completada">Completada</option>
+            
                 </select>
                 <button type="submit" className="bg-blue-600 text-white rounded py-2 hover:bg-blue-700 transition">
                     Agregar tarea
